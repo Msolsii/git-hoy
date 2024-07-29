@@ -1,0 +1,111 @@
+/*linea de comentario*/
+
+/*estilos desde el archivo css externo*/
+
+/* un juego de pares
+
+selector {
+propiedad: valor;
+propiedad2: valor; 
+propiedad3:valor;
+}
+
+*/
+
+
+/*selectores*/
+
+/*las etiquetas selectores*/
+
+/*CLASS ID*/
+/*estilos de header*/
+
+header{
+    background-color:#CEDEEB ;
+}
+
+
+header img{
+    width: 30%;
+
+}
+header img{
+height: 30%;
+}
+
+header nav ul{
+list-style: none;
+}
+
+header nav ul li a{
+color:black;
+text-decoration: none;
+}
+
+
+
+
+/*estilos de main*/
+
+
+
+main h1{
+    text-align: center;
+    text-transform: capitalize
+    font- size 45px; 
+    }
+
+main p{
+    color:black;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer p{
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.imagenjoya{
+width: 50%;
+
+}
+
+@media screen and (min-width: 768px) {
+    main{
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: repeat(2, 40%);
+
+        column-gap: 20px;
+    }
+
+   
+
+}
+
+/* mq desktop*/
+
+@media screen and (min-width: 1024px) {
+    main .img-dos, main .img-cinco{
+        display: block;
+    }
+
+    main{
+        grid-template-columns: repeat(3, 1fr) ;
+        grid-template-rows: 35% 35% 15% ;
+    }
+
+    
+    }
+
+    
+
+
+/*unidades de medida*/
+
+/*unidades absolutas*/
+
+/*unidades relativas*/
+
+/* reset */
+
